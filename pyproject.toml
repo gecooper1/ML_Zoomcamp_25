@@ -1,0 +1,21 @@
+[project]
+name = "midterm"
+version = "0.1.0"
+description = "midterm project loan default prediction service"
+readme = "README.md"
+requires-python = ">=3.13"
+dependencies = [
+    "fastapi>=0.121.0",
+    "pandas>=2.3.3",
+    "pydantic>=2.12.4",
+    "scikit-learn==1.7.2",
+    "uvicorn>=0.38.0",
+]
+
+[dependency-groups]
+dev = [
+    "jupyter>=1.1.1",
+    "matplotlib>=3.10.7",
+    "seaborn>=0.13.2",
+    "xgboost>=3.1.1",
+]
